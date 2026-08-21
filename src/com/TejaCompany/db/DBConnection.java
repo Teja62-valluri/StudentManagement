@@ -18,8 +18,8 @@ public final class DBConnection {
                     + "?useSSL=false"
                     + "&allowPublicKeyRetrieval=true"
                     + "&serverTimezone=UTC",
-                    "Teja",
-                    "teja@205101"
+                    "****",
+                    "******"
                 );
             } catch (Exception e) {
                 throw new RuntimeException("Failed to establish DB connection", e);
